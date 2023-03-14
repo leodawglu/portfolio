@@ -25,5 +25,5 @@ https://docs.google.com/document/d/1Ly0he1QkQwuWyj-W733vArXyKtNRSBUbxFVfISvZsj4/
 
 ## Usage
 1. Clone this repository from Github:
-
-2. Open index.html file in any web browser.
+https://github.com/leodawglu/portfolio-website.git
+2. Open index.html file using a web server such as Live Server.
