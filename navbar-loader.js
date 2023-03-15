@@ -7,3 +7,13 @@ fetch("navbar.html")
     // Insert the contents into the "navbar" div
     document.getElementById("navbar-placeholder").innerHTML = data;
   });
+
+  const hideElement = () => {
+    if (window.location.pathname === '/index.html') {
+      const elementToHide = document.querySelector('#brand');
+      if (elementToHide) {
+        elementToHide.style.display = 'none';
+      }
+    }
+  }
+  

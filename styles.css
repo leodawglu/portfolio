@@ -1,3 +1,4 @@
+/*NAVBAR CSS*/
 .nav-link{
     color: var(--alabaster)!important;
     font-size:x-large;
@@ -6,23 +7,82 @@
 
 }
 
-.navbar-toggler{
+.nav-link:hover{
+    color: var(--yellow)!important;
+    font-size:x-large;
+    /*font-family: 'Courier New', Courier, monospace;*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+.brand a{
+    color:var(--alabaster);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+
+.brand a:hover{
+    color:var(--yellow);
+    text-decoration: none;
+}
+
+/*CONTACT FORM CSS*/
+.form{
+    background-color: var(--dark-green) !important;
+    border: 3px;
+    border-color: var(--alabaster) !important;
+    padding: 10px;
     
 }
 
-.brand{
-    color:var(--alabaster);
+.contact-title{
+    color: var(--alabaster);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.input-label{
+    color: var(--alabaster);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form-label{
+    color: var(--alabaster);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn-secondary{
+    background-color: var(--chocolate) !important;
+    color: var(--alabaster) !important;
+    border-color: var(--silver) !important;
+}
+
+.btn-secondary:hover{
+    background-color:var(--alabaster) !important;
+    color: var(--chocolate) !important;
+}
+
+.btn-primary{
+    background-color:var(--yellow-green) !important;
+    color: var(--dark-green) !important;
+    border-color: var(--silver) !important;
+}
+
+.btn-primary:hover{
+    background-color:var(--dark-green) !important;
+    color: var(--yellow-green) !important;
+}
+
+
+/*Basic Settings*/
 :root{
     --dark-green: #002626;
     --midnight-green: #0E4749;
+    --yellow: #ffff66;
     --yellow-green: #95C623;
     --alabaster:#EFE7DA;
     --persimmon:#E55812;
-
-
+    --chocolate:#712C09;
 }
 
 body{
