@@ -1,4 +1,7 @@
 /*NAVBAR CSS*/
+.navbar{
+    background-color: var(--dark-green);
+}
 .nav-link{
     color: var(--alabaster)!important;
     font-size:x-large;
@@ -73,6 +76,80 @@
     color: var(--yellow-green) !important;
 }
 
+/*Top Banner*/
+.hero-section{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.overlay{
+    position: absolute;
+    padding-left: 10px;
+    color:var(--alabaster);
+    text-shadow: 3px 3px #712C09;
+    bottom: 8px;
+    left: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.banner-img{
+    filter: blur(1.5px);
+}
+
+/*About Section*/
+.about{
+    padding-top:40px;
+    backdrop-filter: blur(10px);
+}
+.paragraph{
+    color: var(--alabaster);
+    font-size:medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.picture-container{
+    padding-left: 20p;
+}
+.para-first-line{
+    font-size:larger !important;
+}
+
+
+/*Tablet*/
+
+@media (min-width: 768px){
+    .paragraph{
+        font-size:large;
+    }
+    .para-first-line{
+        font-size:x-large !important;
+    }
+    .grid-container{
+        display:grid;
+        height: 97vh;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 10px;
+        grid-template-areas: 
+            'grid-item grid-item';
+    }
+}
+@media (min-width: 992px){
+    .paragraph{
+        font-size:x-large;
+    }
+    .para-first-line{
+        font-size:xx-large !important;
+    }
+    .grid-container{
+        display:grid;
+        height: 97vh;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 10px;
+        grid-template-areas: 
+            'grid-item'
+            'grid-item';
+    }
+}
 
 /*Basic Settings*/
 :root{
