@@ -13,9 +13,9 @@ at Portland State University.
 
 ## Features
 * Responsive design that works on:
-  - Mobile: 414px
+  - Mobile: 576px
   - Tablet: 768px
-  - Large : 1024px
+  - Large : 992px
 * Adheres to Accessibility Requirements ascribed by Wave
 * Contact Form: Actual functionality to send contact is yet to be implemented
 
