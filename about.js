@@ -7,7 +7,7 @@ let paraContainer = document.createElement("div");
 let pictureElement = document.createElement("img");
 setAttributes(pictureElement, {
     class: "about-img img-fluid",
-    src: "../images/IMG_7026_square.jpg",
+    src: "./images/IMG_7026_square.jpg",
     alt: "Leo Lu portrait",
     title:
     "Leo Lu at Budva beach standing infront of the sea with Budva Citadel in the background, on a sunny day.",

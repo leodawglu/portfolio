@@ -7,14 +7,14 @@ fetch("navbar.html")
     document.getElementById("navbar-placeholder").innerHTML = data;
   });
 
-
+/*
   fetch("projects.html")
   .then(response => response.text())
   .then(data => {
     // Insert the contents into the "navbar" div
     document.getElementById("projects-placeholder").innerHTML = data;
   });
-
+*/
 /* Resume Fix */
 
 const firstButton = document.querySelector(".first-button");
