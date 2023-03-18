@@ -6,7 +6,7 @@ let paraContainer = document.createElement("div");
 
 let pictureElement = document.createElement("img");
 setAttributes(pictureElement, {
-    class: "about-img",
+    class: "about-img img-fluid",
     src: "../images/IMG_7026_square.jpg",
     alt: "Leo Lu portrait",
     title:
@@ -14,18 +14,15 @@ setAttributes(pictureElement, {
 });
 
 setAttributes(gridContainer,{
-    class: "grid-container"
+    class: "row py-4"
 });
 setAttributes(pictureContainer,{
-    class: "picture-container grid-item"
+    class: "picture-container col-md-6 py-3"
 });
 setAttributes(paraContainer,{
-    class: "paragraph-container grid-item"
+    class: "paragraph-container col-md-6 mt-3"
 });
 
-setStyles(pictureElement, {
-  width: "100%",
-});
 
 let pElement = document.createElement("p");
 let spanElement = document.createElement("span");
@@ -74,4 +71,3 @@ function setStyles(element, styles) {
     element.style[property] = styles[property];
   }
 }
-
