@@ -1,6 +1,7 @@
 # CS 463/563: Intro to Web Development - Final Project - Personal Portfolio Website
 
 Leo Lu's Personal Portfolio Website Repository
+https://leodawglu.github.io/portfolio-website/
 
 This portfolio website will showcase the new skills and experiences I acquire
 through various class projects during my Graduate studies
@@ -15,7 +16,7 @@ at Portland State University.
 * Responsive design that works on:
   - Mobile: 576px
   - Tablet: 768px
-  - Large : 992px
+  - Large : 9px
 * Adheres to Accessibility Requirements ascribed by Wave
 * Contact Form: Actual functionality to send contact is yet to be implemented
 
