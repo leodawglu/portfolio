@@ -1,9 +1,9 @@
-# CS 463/563: Intro to Web Development - Final Project - Personal Portfolio Website
+# Personal Portfolio Website
 
 Leo Lu's Personal Portfolio Website Repository
 https://leodawglu.github.io/portfolio-website/
 
-This portfolio website will showcase the new skills and experiences I acquire
+This portfolio website will showcase the new skills and experiences I gain
 through various class projects during my Graduate studies
 at Portland State University.
 
@@ -19,10 +19,6 @@ at Portland State University.
   - Large : 9px
 * Adheres to Accessibility Requirements ascribed by Wave
 * Contact Form: Actual functionality to send contact is yet to be implemented
-
-## Journal
-The outline of my processes of building this website is viewable here:
-https://docs.google.com/document/d/1Ly0he1QkQwuWyj-W733vArXyKtNRSBUbxFVfISvZsj4/edit?usp=sharing
 
 ## Usage
 1. Clone this repository from Github:
